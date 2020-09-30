@@ -1,16 +1,17 @@
 package br.com.jsf.livraria.bean;
 
+import java.io.Serializable;
 import java.util.List;
 
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ViewScoped;
-
+import javax.faces.view.ViewScoped;
+import javax.inject.Named;
 import br.com.jsf.livraria.dao.DAO;
 import br.com.jsf.livraria.modelo.Autor;
 
-@ManagedBean
+@Named
 @ViewScoped
-public class AutorBean {
+public class AutorBean implements Serializable {
+	private static final long serialVersionUID = 1L;
 
 	private Autor autor = new Autor();
 	
