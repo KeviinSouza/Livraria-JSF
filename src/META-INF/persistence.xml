@@ -11,6 +11,7 @@
 		<class>br.com.jsf.livraria.modelo.Usuario</class>
 		<class>br.com.jsf.livraria.modelo.Livro</class>
 		<class>br.com.jsf.livraria.modelo.Autor</class>
+		<class>br.com.jsf.livraria.modelo.Venda</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
